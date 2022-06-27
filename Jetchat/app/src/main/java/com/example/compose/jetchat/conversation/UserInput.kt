@@ -462,7 +462,7 @@ fun EmojiSelector(
             ExtendedSelectorInnerButton(
                 text = stringResource(id = R.string.stickers_label),
                 onClick = { selected = EmojiStickerSelector.STICKER },
-                selected = false,
+                selected = true,
                 modifier = Modifier.weight(1f)
             )
         }
